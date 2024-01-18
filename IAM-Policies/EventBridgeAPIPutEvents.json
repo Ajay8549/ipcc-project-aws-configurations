@@ -1,0 +1,11 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PutEventsToDefaultEventBus",
+            "Effect": "Allow",
+            "Action": "events:PutEvents",
+            "Resource": "arn:aws:events:<aws-region-code>:<aws-account-id>:event-bus/default"
+        }
+    ]
+}
