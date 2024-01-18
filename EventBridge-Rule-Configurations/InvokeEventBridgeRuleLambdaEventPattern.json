@@ -1,0 +1,4 @@
+{
+  "source": ["my-lambda-function"],
+  "detail-type": ["ManualTrigger"]
+}

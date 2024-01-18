@@ -1,0 +1,8 @@
+{
+  "source": ["aws.secretsmanager"],
+  "detail-type": ["AWS Service Event via CloudTrail"],
+  "detail": {
+    "eventSource": ["secretsmanager.amazonaws.com"],
+    "eventName": ["RotationSucceeded"]
+  }
+}
