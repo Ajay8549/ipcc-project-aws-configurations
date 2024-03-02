@@ -5,7 +5,7 @@
             "Sid": "PutEventsToDefaultEventBus",
             "Effect": "Allow",
             "Action": "events:PutEvents",
-            "Resource": "arn:aws:events:<aws-region-code>:<aws-account-id>:event-bus/default"
+            "Resource": "arn:aws:events:ap-south-1:475773275123:event-bus/default"
         }
     ]
 }
